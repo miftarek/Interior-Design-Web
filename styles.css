@@ -1,0 +1,129 @@
+* {
+    background: #181719;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px 30px;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Crimson Pro;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    margin-left: 30px;
+    list-style: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* main section started here */
+
+.text-container h2 {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.text-container p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main-section img {
+    width: 820px;
+    height: 586px;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* author box design */
+.author img {
+    width: 85px;
+    height: 72px;
+    border-radius: 40px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+}
+.author-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.overflow-box{
+    background: #181719;
+    border: 2px solid blue;
+    margin-top: -100px;
+    margin-left: 800px;
+    margin-right: 100px;
+    padding: 20px;
+    position: relative;
+}
+
+.overflow-box h3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.overflow-box p {
+    color: #828282;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.overflow-box h2 {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.author-desc{
+    text-align: end;
+}
+
+/* footer design */
+
+footer{
+    margin-top: 160px;
+    margin-bottom: 24px;
+    color: #FFF;
+    text-align: center;
+    Font: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+}
